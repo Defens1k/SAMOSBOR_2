@@ -1,0 +1,3 @@
+/home/kekor/game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kekor/game/cmake-build-debug/CMakeFiles/server.dir
+/home/kekor/game/cmake-build-debug/CMakeFiles/edit_cache.dir

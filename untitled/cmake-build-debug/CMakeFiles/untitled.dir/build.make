@@ -43,10 +43,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kekor/CLionProjects/Algoritms/untitled
+CMAKE_SOURCE_DIR = /home/kekor/Algoritms/untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kekor/Algoritms/untitled/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -57,30 +57,60 @@ include CMakeFiles/untitled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled.dir/flags.make
 
-CMakeFiles/untitled.dir/main.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/kekor/CLionProjects/Algoritms/untitled/main.cpp
+CMakeFiles/untitled.dir/src/server.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/server.cpp.o: ../src/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/src/server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/server.cpp.o -c /home/kekor/Algoritms/untitled/src/server.cpp
 
-CMakeFiles/untitled.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kekor/CLionProjects/Algoritms/untitled/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
+CMakeFiles/untitled.dir/src/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kekor/Algoritms/untitled/src/server.cpp > CMakeFiles/untitled.dir/src/server.cpp.i
 
-CMakeFiles/untitled.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kekor/CLionProjects/Algoritms/untitled/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
+CMakeFiles/untitled.dir/src/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kekor/Algoritms/untitled/src/server.cpp -o CMakeFiles/untitled.dir/src/server.cpp.s
+
+CMakeFiles/untitled.dir/src/connection.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/connection.cpp.o: ../src/connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/src/connection.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/connection.cpp.o -c /home/kekor/Algoritms/untitled/src/connection.cpp
+
+CMakeFiles/untitled.dir/src/connection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/connection.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kekor/Algoritms/untitled/src/connection.cpp > CMakeFiles/untitled.dir/src/connection.cpp.i
+
+CMakeFiles/untitled.dir/src/connection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/connection.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kekor/Algoritms/untitled/src/connection.cpp -o CMakeFiles/untitled.dir/src/connection.cpp.s
+
+CMakeFiles/untitled.dir/src/secure_queue.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/secure_queue.cpp.o: ../src/secure_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/src/secure_queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/secure_queue.cpp.o -c /home/kekor/Algoritms/untitled/src/secure_queue.cpp
+
+CMakeFiles/untitled.dir/src/secure_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/secure_queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kekor/Algoritms/untitled/src/secure_queue.cpp > CMakeFiles/untitled.dir/src/secure_queue.cpp.i
+
+CMakeFiles/untitled.dir/src/secure_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/secure_queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kekor/Algoritms/untitled/src/secure_queue.cpp -o CMakeFiles/untitled.dir/src/secure_queue.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/main.cpp.o"
+"CMakeFiles/untitled.dir/src/server.cpp.o" \
+"CMakeFiles/untitled.dir/src/connection.cpp.o" \
+"CMakeFiles/untitled.dir/src/secure_queue.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
-untitled: CMakeFiles/untitled.dir/main.cpp.o
+untitled: CMakeFiles/untitled.dir/src/server.cpp.o
+untitled: CMakeFiles/untitled.dir/src/connection.cpp.o
+untitled: CMakeFiles/untitled.dir/src/secure_queue.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +123,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	cd /home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kekor/CLionProjects/Algoritms/untitled /home/kekor/CLionProjects/Algoritms/untitled /home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug /home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug /home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kekor/Algoritms/untitled/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kekor/Algoritms/untitled /home/kekor/Algoritms/untitled /home/kekor/Algoritms/untitled/cmake-build-debug /home/kekor/Algoritms/untitled/cmake-build-debug /home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 

@@ -1,3 +1,3 @@
-/home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-/home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+/home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir

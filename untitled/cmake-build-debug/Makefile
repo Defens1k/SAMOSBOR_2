@@ -48,10 +48,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kekor/CLionProjects/Algoritms/untitled
+CMAKE_SOURCE_DIR = /home/kekor/Algoritms/untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kekor/Algoritms/untitled/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug/CMakeFiles /home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles /home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kekor/CLionProjects/Algoritms/untitled/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kekor/Algoritms/untitled/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,86 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-main.o: main.cpp.o
+src/connection.o: src/connection.cpp.o
 
-.PHONY : main.o
+.PHONY : src/connection.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/connection.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/connection.cpp.o
+.PHONY : src/connection.cpp.o
 
-main.i: main.cpp.i
+src/connection.i: src/connection.cpp.i
 
-.PHONY : main.i
+.PHONY : src/connection.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/connection.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/connection.cpp.i
+.PHONY : src/connection.cpp.i
 
-main.s: main.cpp.s
+src/connection.s: src/connection.cpp.s
 
-.PHONY : main.s
+.PHONY : src/connection.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/connection.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/connection.cpp.s
+.PHONY : src/connection.cpp.s
+
+src/secure_queue.o: src/secure_queue.cpp.o
+
+.PHONY : src/secure_queue.o
+
+# target to build an object file
+src/secure_queue.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/secure_queue.cpp.o
+.PHONY : src/secure_queue.cpp.o
+
+src/secure_queue.i: src/secure_queue.cpp.i
+
+.PHONY : src/secure_queue.i
+
+# target to preprocess a source file
+src/secure_queue.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/secure_queue.cpp.i
+.PHONY : src/secure_queue.cpp.i
+
+src/secure_queue.s: src/secure_queue.cpp.s
+
+.PHONY : src/secure_queue.s
+
+# target to generate assembly for a file
+src/secure_queue.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/secure_queue.cpp.s
+.PHONY : src/secure_queue.cpp.s
+
+src/server.o: src/server.cpp.o
+
+.PHONY : src/server.o
+
+# target to build an object file
+src/server.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
+
+src/server.i: src/server.cpp.i
+
+.PHONY : src/server.i
+
+# target to preprocess a source file
+src/server.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
+
+src/server.s: src/server.cpp.s
+
+.PHONY : src/server.s
+
+# target to generate assembly for a file
+src/server.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/connection.o"
+	@echo "... src/connection.i"
+	@echo "... src/connection.s"
+	@echo "... src/secure_queue.o"
+	@echo "... src/secure_queue.i"
+	@echo "... src/secure_queue.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
 .PHONY : help
 
 

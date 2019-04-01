@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/connection.h
+fcntl.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+iostream
+-
+secure_queue.h
+../include/secure_queue.h
+message.h
+../include/message.h
+
+../include/message.h
+
+../include/secure_queue.h
+queue
+-
+mutex
+-
+
+/home/kekor/Algoritms/untitled/src/connection.cpp
+connection.h
+/home/kekor/Algoritms/untitled/src/connection.h
+

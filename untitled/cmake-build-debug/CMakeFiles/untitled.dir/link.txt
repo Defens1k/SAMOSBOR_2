@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/untitled.dir/main.cpp.o  -o untitled 
+/usr/bin/c++  -g   CMakeFiles/untitled.dir/src/server.cpp.o CMakeFiles/untitled.dir/src/connection.cpp.o CMakeFiles/untitled.dir/src/secure_queue.cpp.o  -o untitled 
